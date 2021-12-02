@@ -1,6 +1,6 @@
 # tencent-tcpa
 来自腾讯的tcp单边加速方案
-<!--
+
 注意:
 ```
 系统最好是centos7或者以上
@@ -10,7 +10,7 @@ boot分区大于500M,否则可能会安装内核失败
 安装:  
 一键安装:
 ```
-wget https://raw.githubusercontent.com/bigcaibao/tencent-tcpa/tcpa.sh
+wget https://raw.githubusercontent.com/bigcaibao/tencent-tcpa/main/tcpa.sh
 chmod +x tcpa.sh
 sh tcpa.sh
 ```
@@ -31,7 +31,7 @@ reboot
 ```
 下载tcpa解压并安装
 ```
-wget https://github.com/bigcaibao/tencent-tcpa/tcpa_packets_180619_1151.tar.gz
+wget https://github.com/bigcaibao/tencent-tcpa/raw/main/tcpa_packets_180619_1151.tar.gz
 tar zxvf tcpa_packets_180619_1151.tar.gz
 cd tcpa_packets
 sh install.sh
@@ -57,4 +57,3 @@ sh start.sh
 cd /usr/local/storage/tcpav2  
 sh uninstall.sh
 ```
---!>
