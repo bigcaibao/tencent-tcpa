@@ -10,7 +10,7 @@ boot分区大于500M,否则可能会安装内核失败
 安装:  
 一键安装:
 ```
-wget https://github.com/bigcaibao/tencent-tcpa/tcpa.sh
+wget https://raw.githubusercontent.com/bigcaibao/tencent-tcpa/tcpa.sh
 chmod +x tcpa.sh
 sh tcpa.sh
 ```
