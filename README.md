@@ -1,6 +1,6 @@
 # tencent-tcpa
 来自腾讯的tcp单边加速方案
-
+<!--
 注意:
 ```
 系统最好是centos7或者以上
@@ -57,3 +57,4 @@ sh start.sh
 cd /usr/local/storage/tcpav2  
 sh uninstall.sh
 ```
+--!>
