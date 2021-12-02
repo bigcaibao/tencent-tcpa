@@ -7,7 +7,7 @@
 boot分区大于500M,否则可能会安装内核失败
 ```  
 
-安装:
+安装:  
 一键安装:
 ```
 wget https://github.com/bigcaibao/tencent-tcpa/tcpa.sh
@@ -15,7 +15,7 @@ chmod +x tcpa.sh
 sh tcpa.sh
 ```
 
-手动安装:
+手动安装:  
 安装必要依赖:
 ```
 yum -y install net-tools
