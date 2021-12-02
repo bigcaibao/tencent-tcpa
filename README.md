@@ -29,7 +29,8 @@ tar zxvf tcpa_packets_180619_1151.tar.gz
 cd tcpa_packets
 sh install.sh
 ```
-================================
+================================  
+
 TCPA(默认只加速80,443,8080这3个端口)，如需新增加速端口请编辑如下:
 ```
 vim /usr/local/storage/tcpav2/start.sh
