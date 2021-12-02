@@ -5,6 +5,7 @@
 一键安装:
 ```
 wget https://github.com/bigcaibao/tencent-tcpa/tcpa.sh
+chmod +x tcpa.sh
 sh tcpa.sh
 ```
 
