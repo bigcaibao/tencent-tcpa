@@ -15,7 +15,7 @@ yum -y install net-tools
 ```
 更换系统内核:
 ```
-wget http://down.caibao.in/Git/TCPA/kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm
+wget https://github.com/bigcaibao/tencent-tcpa/releases/download/1.0/kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm
 rpm -ivh kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm --force
 ```
 重启:
